@@ -1,0 +1,42 @@
+{
+  "name": "@hikeman/react-graphviz",
+  "version": "0.0.5",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-despres/react-graphviz.git"
+  },
+  "keywords": [
+    "graphviz"
+  ],
+  "author": "ndespres@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolas-despres/react-graphviz/issues"
+  },
+  "homepage": "https://github.com/nicolas-despres/react-graphviz#readme",
+  "dependencies": {
+    "d3-ease": "^2.0.0",
+    "d3-graphviz": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/d3-ease": "^2.0.0",
+    "@types/d3-graphviz": "^2.6.6",
+    "@types/d3-selection": "^2.0.0",
+    "@types/d3-transition": "^2.0.0",
+    "@types/react": "^16.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

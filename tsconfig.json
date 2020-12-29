@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "removeComments": false,
+        "declaration": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "typeRoots": [
+            "index.d.ts",
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules/**",
+        "example/**",
+        "lib/**",
+        "src/**/*.test.tsx"
+    ],
+    "include": [
+        "src"
+    ]
+}
